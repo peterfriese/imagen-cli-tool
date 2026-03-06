@@ -12,6 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterfriese/imagen-cli-tool.git"
+  },
   "description": "",
   "dependencies": {
     "@google/genai": "^1.44.0",
