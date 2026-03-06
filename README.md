@@ -41,7 +41,7 @@ npm start  # Launches the interactive wizard
 | :--- | :--- | :--- |
 | **Authentication** | Simple API Key | OAuth 2.0 / Service Accounts |
 | **Setup Speed** | Seconds | Minutes/Hours (IAM, Billing, etc.) |
-| **Pricing** | Free Tier available; Pay-as-you-go | Enterprise pricing via GCP billing |
+| **Pricing** | Pay-as-you-go | Enterprise pricing via GCP billing |
 | **Target Audience** | Individual Devs, Prototyping | Enterprises, Production Apps |
 | **SDK** | `@google/genai` | `@google-cloud/vertexai` |
 
@@ -51,10 +51,8 @@ npm start  # Launches the interactive wizard
 
 The following estimates are based on current **Pay-as-you-go** pricing per image (1K resolution). 
 
-> [!TIP]
-```markdown
-**Free Tier**: If you are within the Google AI Studio free tier limits, the cost is **$0.00**. This applies to image generation models as well, though they are subject to specific rate limits that differ from text-only models.
-```
+> [!IMPORTANT]
+> **Paid Feature**: Unlike text-only models, Gemini and Imagen image generation models **do not have a free tier** on the Developer API. All image generation requests are charged according to the pay-as-you-go pricing.
 
 | Model | 512px | 1K (1024px) | 2K (2048px) | 4K (4096px) |
 | :--- | :--- | :--- | :--- | :--- |
