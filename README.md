@@ -74,6 +74,22 @@ The following estimates are based on current **Pay-as-you-go** pricing per image
 
 ---
 
+## 🚦 Rate Limits (Standard Paid Tier)
+
+To ensure fair usage, the Developer API enforces the following limits:
+
+| Model Name | RPM (Req. Per Min) | RPD (Req. Per Day) | TPM (Tokens Per Min) |
+| :--- | :--- | :--- | :--- |
+| **Nano Banana (Flash)** | 100 | 1,000 | 200,000 |
+| **Nano Banana Pro** | 20 | 250 | 100,000 |
+| **Imagen 4 (Standard/Fast)** | 10 | 70 | N/A |
+| **Imagen 4 (Ultra)** | 5 | 30 | N/A |
+
+> [!NOTE]
+> Batch API requests have separate, much higher limits (up to 1-2 million tokens enqueued).
+
+---
+
 ## 💻 Code Snippet (The "Magic")
 
 > [!IMPORTANT]
